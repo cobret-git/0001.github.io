@@ -1,0 +1,20 @@
+@mixin _1200 {
+	@media all and(max-width: 1200px) and(min-width: 992px){
+		@content;
+	}
+}
+@mixin _992 {
+	@media all and(max-width: 992px) and(min-width: 768px){
+		@content;
+	}
+}
+@mixin _768 {
+	@media all and(max-width: 768px) and(min-width: 576px){
+		@content;
+	}
+}
+@mixin _576 {
+	@media all and(max-width: 576px) and(min-width: 300px){
+		@content;
+	}
+}
