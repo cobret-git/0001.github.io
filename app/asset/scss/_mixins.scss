@@ -1,0 +1,49 @@
+
+@mixin f-center-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin if-center-center {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin if-center-between {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin poppins-400 {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+@mixin poppins-500 {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+@mixin poppins-600 {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+@mixin f-center-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin f-center-start {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+@mixin bg-nr-center-cover {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+// @mixin poppins-18-400 {
+//     font-family: 'Poppins';
+//     font-weight: 400;
+//     font-size: 18px;
+// }
